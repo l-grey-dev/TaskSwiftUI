@@ -85,6 +85,7 @@
 				5E7B369525E45BF100D22BED /* TaskSwiftUITests */,
 				5E7B36A025E45BF100D22BED /* TaskSwiftUIUITests */,
 				5E7B367D25E45BF000D22BED /* Products */,
+				5E7B36B225E462C000D22BED /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +104,6 @@
 			children = (
 				5E7B367F25E45BF000D22BED /* TaskSwiftUIApp.swift */,
 				5E7B368125E45BF000D22BED /* ContentView.swift */,
-				5E7B36B225E462C000D22BED /* README.md */,
 				5E7B368325E45BF100D22BED /* Assets.xcassets */,
 				5E7B368825E45BF100D22BED /* Persistence.swift */,
 				5E7B368D25E45BF100D22BED /* Info.plist */,
