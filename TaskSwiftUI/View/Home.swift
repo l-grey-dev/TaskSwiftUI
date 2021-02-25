@@ -19,6 +19,7 @@ struct Home: View {
         .sheet(isPresented: $homeData.isNewData) {
             NewDataView(homeData: homeData)
         }
+        
     }
 }
 

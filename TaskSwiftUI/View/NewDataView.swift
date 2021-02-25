@@ -35,6 +35,7 @@ struct NewDataView: View {
                     .foregroundColor(.black)
                 Spacer(minLength: 0.0)
             }
+            .padding()
             Spacer(minLength: 0.0)
         }
         .background(Color.black.opacity(0.06))
