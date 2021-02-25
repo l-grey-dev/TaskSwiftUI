@@ -18,6 +18,7 @@
 		5E7B36B325E462C000D22BED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B36B225E462C000D22BED /* README.md */; };
 		5E7B36DE25E8284800D22BED /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B36DD25E8284800D22BED /* .gitignore */; };
 		5E7B36E325E82FDF00D22BED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B36E225E82FDF00D22BED /* Home.swift */; };
+		5E7B36E825E8307400D22BED /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B36E725E8307400D22BED /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		5E7B36B225E462C000D22BED /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5E7B36DD25E8284800D22BED /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5E7B36E225E82FDF00D22BED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5E7B36E725E8307400D22BED /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		5E7B36D125E8223E00D22BED /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5E7B36E725E8307400D22BED /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7B368925E45BF100D22BED /* Persistence.swift in Sources */,
+				5E7B36E825E8307400D22BED /* HomeViewModel.swift in Sources */,
 				5E7B368225E45BF000D22BED /* ContentView.swift in Sources */,
 				5E7B36E325E82FDF00D22BED /* Home.swift in Sources */,
 				5E7B368C25E45BF100D22BED /* TaskSwiftUI.xcdatamodeld in Sources */,
