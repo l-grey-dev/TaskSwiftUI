@@ -102,6 +102,8 @@
 		5E7B367E25E45BF000D22BED /* TaskSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5E7B36D125E8223E00D22BED /* ViewModel */,
+				5E7B36D025E8222D00D22BED /* View */,
 				5E7B367F25E45BF000D22BED /* TaskSwiftUIApp.swift */,
 				5E7B368125E45BF000D22BED /* ContentView.swift */,
 				5E7B368325E45BF100D22BED /* Assets.xcassets */,
@@ -137,6 +139,20 @@
 				5E7B36A325E45BF100D22BED /* Info.plist */,
 			);
 			path = TaskSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		5E7B36D025E8222D00D22BED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E7B36D125E8223E00D22BED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
