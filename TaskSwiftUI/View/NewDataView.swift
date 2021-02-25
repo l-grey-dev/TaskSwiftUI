@@ -37,5 +37,6 @@ struct NewDataView: View {
             }
             Spacer(minLength: 0.0)
         }
+        .background(Color.black.opacity(0.06))
     }
 }
