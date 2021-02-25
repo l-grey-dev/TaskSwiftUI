@@ -10,8 +10,8 @@ import SwiftUI
 class HomeViewModel: ObservableObject {
     
     @Published var content = ""
-    @Published var date = Data()
+    @Published var date = Date()
     
     // For NewData Sheet...
-    @Published var isNewDate = false
+    @Published var isNewData = false
 }

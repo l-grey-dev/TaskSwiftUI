@@ -8,10 +8,16 @@
 import SwiftUI
 
 struct Home: View {
+    
+    @StateObject var homeData = HomeViewModel()
+    
     var body: some View {
         
         Button(action: {}) {
             Text("")
+        }
+        .sheet(isPresented: $homeData.$isNewData) {
+            
         }
     }
 }
