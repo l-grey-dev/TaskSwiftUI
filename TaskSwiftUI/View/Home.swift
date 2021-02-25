@@ -13,11 +13,11 @@ struct Home: View {
     
     var body: some View {
         
-        Button(action: {}) {
-            Text("")
+        Button(action: { homeData.isNewData.toggle() }) {
+            Text("Button")
         }
-        .sheet(isPresented: $homeData.$isNewData) {
-            
+        .sheet(isPresented: $homeData.isNewData) {
+            NewDataView(homeData: homeData)
         }
     }
 }
