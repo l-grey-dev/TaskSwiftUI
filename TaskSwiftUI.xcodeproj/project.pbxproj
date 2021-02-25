@@ -16,6 +16,7 @@
 		5E7B369725E45BF100D22BED /* TaskSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B369625E45BF100D22BED /* TaskSwiftUITests.swift */; };
 		5E7B36A225E45BF100D22BED /* TaskSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B36A125E45BF100D22BED /* TaskSwiftUIUITests.swift */; };
 		5E7B36B325E462C000D22BED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B36B225E462C000D22BED /* README.md */; };
+		5E7B36DE25E8284800D22BED /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B36DD25E8284800D22BED /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5E7B36A125E45BF100D22BED /* TaskSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSwiftUIUITests.swift; sourceTree = "<group>"; };
 		5E7B36A325E45BF100D22BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7B36B225E462C000D22BED /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5E7B36DD25E8284800D22BED /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				5E7B36A025E45BF100D22BED /* TaskSwiftUIUITests */,
 				5E7B367D25E45BF000D22BED /* Products */,
 				5E7B36B225E462C000D22BED /* README.md */,
+				5E7B36DD25E8284800D22BED /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E7B36DE25E8284800D22BED /* .gitignore in Resources */,
 				5E7B36B325E462C000D22BED /* README.md in Resources */,
 				5E7B368725E45BF100D22BED /* Preview Assets.xcassets in Resources */,
 				5E7B368425E45BF100D22BED /* Assets.xcassets in Resources */,
