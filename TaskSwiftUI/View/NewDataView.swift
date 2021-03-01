@@ -15,12 +15,12 @@ struct NewDataView: View {
         VStack {
             HStack {
                 Text("Add New Task")
-                    .font(.system(size: 65.0))
+                    .font(.system(size: 40.0))
                     .fontWeight(.heavy)
                     .foregroundColor(.black)
                 Spacer(minLength: 0.0)
             }
-            .padding()
+                .padding()
             
             TextEditor(text: $homeData.content)
                 .padding()
@@ -30,7 +30,7 @@ struct NewDataView: View {
             
             HStack {
                 Text("When")
-                    .font(.title)
+                    .font(.title2)
                     .fontWeight(.bold)
                     .foregroundColor(.black)
                 Spacer(minLength: 0.0)
