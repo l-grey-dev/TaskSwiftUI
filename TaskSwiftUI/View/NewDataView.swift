@@ -36,8 +36,13 @@ struct NewDataView: View {
                 Spacer(minLength: 0.0)
             }
             .padding()
+            
+            HStack {
+                
+            }
+            
             Spacer(minLength: 0.0)
         }
-        .background(Color.black.opacity(0.06))
+        .background(Color.black.opacity(0.06).ignoresSafeArea(.all, edges: .bottom))
     }
 }
