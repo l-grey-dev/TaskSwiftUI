@@ -20,6 +20,7 @@
 		5E7B36E325E82FDF00D22BED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B36E225E82FDF00D22BED /* Home.swift */; };
 		5E7B36E825E8307400D22BED /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B36E725E8307400D22BED /* HomeViewModel.swift */; };
 		5E7B36ED25E832FE00D22BED /* NewDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B36EC25E832FE00D22BED /* NewDataView.swift */; };
+		5E7B372E25F00EA000D22BED /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B372D25F00EA000D22BED /* DateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		5E7B36E225E82FDF00D22BED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		5E7B36E725E8307400D22BED /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		5E7B36EC25E832FE00D22BED /* NewDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDataView.swift; sourceTree = "<group>"; };
+		5E7B372D25F00EA000D22BED /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			children = (
 				5E7B36E225E82FDF00D22BED /* Home.swift */,
 				5E7B36EC25E832FE00D22BED /* NewDataView.swift */,
+				5E7B372D25F00EA000D22BED /* DateButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				5E7B368225E45BF000D22BED /* ContentView.swift in Sources */,
 				5E7B36E325E82FDF00D22BED /* Home.swift in Sources */,
 				5E7B368C25E45BF100D22BED /* TaskSwiftUI.xcdatamodeld in Sources */,
+				5E7B372E25F00EA000D22BED /* DateButton.swift in Sources */,
 				5E7B368025E45BF000D22BED /* TaskSwiftUIApp.swift in Sources */,
 				5E7B36ED25E832FE00D22BED /* NewDataView.swift in Sources */,
 			);
