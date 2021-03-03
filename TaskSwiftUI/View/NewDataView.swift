@@ -47,8 +47,30 @@ struct NewDataView: View {
                     .labelsHidden()
             }
             .padding()
-            
             Spacer(minLength: 0.0)
+            
+            // MARK: Add Button
+            
+            Button(action: {}) {
+                Text("Button")
+                Label(
+                    title: { Text("Add Now")
+                        .font(.title)
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                    },
+                    icon: { Image(systemName: "plus")
+                        .font(.title)
+                        .foregroundColor(.white)
+                    })
+                    .padding(.vertical)
+                    .frame(width: UIScreen.main.bounds.width - 30.0)
+                    .background(
+                        LinearGradient(gradient: .init(colors: [Color("Color1"), Color("Color2")]), startPoint: .leading, endPoint: .trailing)
+                    )
+                    .cornerRadius(8.0)
+            }
+            .padding()
         }
         .background(Color.black.opacity(0.06).ignoresSafeArea(.all, edges: .bottom))
     }
