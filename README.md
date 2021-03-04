@@ -1,3 +1,7 @@
+### App on development stage....
+
+
+
 # Task SwiftUI
 
 This is a simple task app written in SwiftUI using CoreData.
